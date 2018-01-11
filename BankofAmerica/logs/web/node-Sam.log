@@ -1,0 +1,253 @@
+[INFO ] 2018-01-10T21:47:43,874Z [main] webserver.CmdLineOptions.loadConfig - Config:
+{
+    # hardcoded value
+    "baseDirectory" : "G:\\cordanew2\\AmendFlow\\agreement-negotiation\\build\\nodes\\BankofAmerica",
+    # G:\cordanew2\AmendFlow\agreement-negotiation\build\nodes\BankofAmerica\node.conf: 1
+    "extraAdvertisedServiceIds" : [],
+    # web-reference.conf @ jar:file:/C:/Users/Sameer/AppData/Local/capsule/apps/net.corda.webserver.WebServer_1.0.0/corda-webserver-impl-1.0.0.jar!/web-reference.conf: 2
+    "keyStorePassword" : "cordacadevpass",
+    # G:\cordanew2\AmendFlow\agreement-negotiation\build\nodes\BankofAmerica\node.conf: 2
+    "myLegalName" : "O=Bank of America,L=New York,C=US",
+    # G:\cordanew2\AmendFlow\agreement-negotiation\build\nodes\BankofAmerica\node.conf: 3
+    "networkMapService" : {
+        # G:\cordanew2\AmendFlow\agreement-negotiation\build\nodes\BankofAmerica\node.conf: 4
+        "address" : "localhost:10002",
+        # G:\cordanew2\AmendFlow\agreement-negotiation\build\nodes\BankofAmerica\node.conf: 5
+        "legalName" : "O=Controller,L=London,C=GB"
+    },
+    # G:\cordanew2\AmendFlow\agreement-negotiation\build\nodes\BankofAmerica\node.conf: 7
+    "p2pAddress" : "localhost:10008",
+    # G:\cordanew2\AmendFlow\agreement-negotiation\build\nodes\BankofAmerica\node.conf: 8
+    "rpcAddress" : "localhost:10009",
+    # G:\cordanew2\AmendFlow\agreement-negotiation\build\nodes\BankofAmerica\node.conf: 9
+    "rpcUsers" : [
+        # G:\cordanew2\AmendFlow\agreement-negotiation\build\nodes\BankofAmerica\node.conf: 10
+        {
+            # G:\cordanew2\AmendFlow\agreement-negotiation\build\nodes\BankofAmerica\node.conf: 11
+            "password" : "test",
+            # G:\cordanew2\AmendFlow\agreement-negotiation\build\nodes\BankofAmerica\node.conf: 12
+            "permissions" : [
+                # G:\cordanew2\AmendFlow\agreement-negotiation\build\nodes\BankofAmerica\node.conf: 13
+                "StartFlow.com.genpact.agreementnegotiation.flow.AgreementNegotiationInitiateFlow$Initiator"
+            ],
+            # G:\cordanew2\AmendFlow\agreement-negotiation\build\nodes\BankofAmerica\node.conf: 15
+            "user" : "user1"
+        }
+    ],
+    # web-reference.conf @ jar:file:/C:/Users/Sameer/AppData/Local/capsule/apps/net.corda.webserver.WebServer_1.0.0/corda-webserver-impl-1.0.0.jar!/web-reference.conf: 3
+    "trustStorePassword" : "trustpass",
+    # web-reference.conf @ jar:file:/C:/Users/Sameer/AppData/Local/capsule/apps/net.corda.webserver.WebServer_1.0.0/corda-webserver-impl-1.0.0.jar!/web-reference.conf: 1
+    "useHTTPS" : false,
+    # G:\cordanew2\AmendFlow\agreement-negotiation\build\nodes\BankofAmerica\node.conf: 18
+    "webAddress" : "localhost:10010"
+}
+
+[INFO ] 2018-01-10T21:47:43,894Z [main] Main.main - Main class: /C:/Users/Sameer/AppData/Local/capsule/apps/net.corda.webserver.WebServer_1.0.0/corda-webserver-impl-1.0.0.jar
+[INFO ] 2018-01-10T21:47:44,243Z [main] Main.main - CommandLine Args: -Xmx200m -XX:+UseG1GC -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5006 -javaagent:G:\cordanew2\AmendFlow\agreement-negotiation\build\nodes\BankofAmerica\corda-webserver.jar -javaagent:C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\quasar-core-0.7.9-jdk8.jar -Dcapsule.address=0.0.0.0 -Dvisualvm.display.name=Corda -Djava.library.path=C:\Program Files\Java\jre1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\app\Sameer\product\11.2.0\client_1\bin;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\MySQL\MySQL Server 5.1\bin;G:\PSE\PSE\apache-maven-3.2.3-bin\apache-maven-3.2.3\bin;C:\Program Files\nodejs;C:\Users\Sameer\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn;c:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Microsoft SQL Server\130\DTS\Binn;C:\Program Files\Microsoft\Web Platform Installer;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files (x86)\Skype\Phone;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Users\Sameer\AppData\Local\Microsoft\WindowsApps;C:\Users\Sameer\AppData\Roaming\npm;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0 -Dcapsule.log=1 -Dcapsule.app=net.corda.webserver.WebServer_1.0.0 -Dcapsule.port=52408 -Dname=BankofAmerica-corda-webserver.jar -Dcapsule.jvm.args=-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5006 -DWebserver -Dcapsule.dir=C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0 -Dcapsule.jar=G:\cordanew2\AmendFlow\agreement-negotiation\build\nodes\BankofAmerica\corda-webserver.jar
+[INFO ] 2018-01-10T21:47:45,080Z [main] Main.main - Application Args: 
+[INFO ] 2018-01-10T21:47:45,081Z [main] Main.main - bootclasspath: C:\Program Files\Java\jre1.8.0_144\lib\resources.jar;C:\Program Files\Java\jre1.8.0_144\lib\rt.jar;C:\Program Files\Java\jre1.8.0_144\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_144\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_144\lib\jce.jar;C:\Program Files\Java\jre1.8.0_144\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_144\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_144\classes
+[INFO ] 2018-01-10T21:47:45,082Z [main] Main.main - classpath: G:\cordanew2\AmendFlow\agreement-negotiation\build\nodes\BankofAmerica\corda-webserver.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\corda-rpc-1.0.0.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\corda-jackson-1.0.0.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\corda-node-api-1.0.0.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\corda-core-1.0.0.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jetty-webapp-9.3.9.v20160517.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jetty-servlet-9.3.9.v20160517.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jersey-container-jetty-http-2.25.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jetty-security-9.3.9.v20160517.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jetty-server-9.3.9.v20160517.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\javax.servlet-api-3.1.0.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\commons-fileupload-1.3.2.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\log4j-slf4j-impl-2.7.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\log4j-core-2.7.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jopt-simple-5.0.2.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jersey-container-servlet-core-2.25.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jersey-server-2.25.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jersey-media-json-jackson-2.25.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\kotlinx-html-jvm-0.6.3.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\kotlin-stdlib-jre8-1.1.4.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jackson-module-kotlin-2.8.5.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\kotlin-reflect-1.1.4.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jsr305-3.0.1.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jcl-over-slf4j-1.7.25.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\slf4j-api-1.7.25.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\rxjava-1.2.4.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\commons-jexl3-3.0.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jackson-datatype-jsr310-2.8.5.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jackson-jaxrs-json-provider-2.8.4.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jackson-jaxrs-base-2.8.4.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jackson-module-jaxb-annotations-2.8.4.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jackson-databind-2.8.5.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\eddsa-0.2.0.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\bcpkix-jdk15on-1.57.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\bcprov-jdk15on-1.57.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\hibernate-jpa-2.1-api-1.0.0.Final.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\quasar-core-0.7.9-jdk8.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jackson-dataformat-yaml-2.8.5.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\artemis-core-client-2.1.0.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\artemis-commons-2.1.0.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\guava-21.0.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jetty-xml-9.3.9.v20160517.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jolokia-server-detector-2.0.0-M3.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jolokia-service-jsr160-2.0.0-M3.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jolokia-service-jmx-2.0.0-M3.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jolokia-service-serializer-2.0.0-M3.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jolokia-service-notif-pull-2.0.0-M3.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jolokia-service-notif-sse-2.0.0-M3.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jolokia-service-discovery-2.0.0-M3.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jolokia-service-history-2.0.0-M3.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jolokia-server-core-2.0.0-M3.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\commons-io-2.2.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\log4j-api-2.7.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jersey-client-2.25.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jersey-media-jaxb-2.25.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jersey-common-2.25.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jersey-entity-filtering-2.25.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\javax.ws.rs-api-2.0.1.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\javax.annotation-api-1.2.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\hk2-locator-2.5.0-b30.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\hk2-api-2.5.0-b30.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\javax.inject-2.5.0-b30.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\validation-api-1.1.0.Final.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jetty-http-9.3.9.v20160517.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jetty-io-9.3.9.v20160517.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jetty-util-9.3.9.v20160517.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jetty-continuation-9.2.14.v20151106.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jackson-annotations-2.8.5.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\kotlin-stdlib-jre7-1.1.4.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\kotlin-stdlib-1.1.4.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jackson-core-2.8.5.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\config-1.3.1.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\kryo-serializers-0.41.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\kryo-4.0.0.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\proton-j-0.21.0.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\snakeyaml-1.17.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\json-simple-1.1.1.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jersey-guava-2.25.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\osgi-resource-locator-1.0.1.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\hk2-utils-2.5.0-b30.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\aopalliance-repackaged-2.5.0-b30.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\javassist-3.20.0-GA.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jgroups-3.6.13.Final.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\netty-all-4.1.9.Final.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\geronimo-json_1.0_spec-1.0-alpha-1.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\johnzon-core-0.9.5.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\jboss-logging-3.3.0.Final.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\commons-beanutils-1.9.2.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\reflectasm-1.11.3.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\minlog-1.3.0.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\objenesis-2.2.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\javax.inject-1.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\commons-collections-3.2.1.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\asm-5.0.4.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\annotations-13.0.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\corda-webserver-impl-1.0.0.jar;G:\cordanew2\AmendFlow\agreement-negotiation\build\nodes\BankofAmerica\plugins\agreement-negotiation-0.1.jar;G:\cordanew2\AmendFlow\agreement-negotiation\build\nodes\BankofAmerica\plugins\corda-finance-1.0.0.jar;G:\cordanew2\AmendFlow\agreement-negotiation\build\nodes\BankofAmerica\corda-webserver.jar;C:\Users\Sameer\AppData\Local\capsule\apps\net.corda.webserver.WebServer_1.0.0\quasar-core-0.7.9-jdk8.jar
+[INFO ] 2018-01-10T21:47:45,085Z [main] Main.main - VM Java HotSpot(TM) 64-Bit Server VM Oracle Corporation 25.144-b01
+[INFO ] 2018-01-10T21:47:45,086Z [main] Main.main - Machine: Sam
+[INFO ] 2018-01-10T21:47:45,086Z [main] Main.main - Working Directory: G:\cordanew2\AmendFlow\agreement-negotiation\build\nodes\BankofAmerica
+[INFO ] 2018-01-10T21:47:51,150Z [main] Main.main - Starting as webserver on localhost:10010
+[INFO ] 2018-01-10T21:47:51,945Z [main] BasicInfo.logAndMaybePrint - Starting as webserver: localhost:10010
+[INFO ] 2018-01-10T21:47:51,953Z [main] internal.NodeWebServer.connectLocalRpcAsNodeUser - Connecting to node at localhost:10008 as node user
+[WARN ] 2018-01-10T21:48:17,090Z [main] core.client.createTransportConnection - AMQ212007: connector.create or connectorFactory.createConnector should never throw an exception, implementation is badly behaved, but we will deal with it anyway.
+java.lang.IllegalStateException: Unable to create NettyConnector for localhost:10008
+	at org.apache.activemq.artemis.core.remoting.impl.netty.NettyConnector.start(NettyConnector.java:494) ~[artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl.openTransportConnection(ClientSessionFactoryImpl.java:1034) ~[artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl.createTransportConnection(ClientSessionFactoryImpl.java:1076) [artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl.establishNewConnection(ClientSessionFactoryImpl.java:1254) [artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl.getConnection(ClientSessionFactoryImpl.java:891) [artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl.getConnectionWithRetry(ClientSessionFactoryImpl.java:795) [artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl.connect(ClientSessionFactoryImpl.java:238) [artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.client.impl.ServerLocatorImpl.createSessionFactory(ServerLocatorImpl.java:772) [artemis-core-client-2.1.0.jar:2.1.0]
+	at net.corda.client.rpc.internal.RPCClientProxyHandler$sessionAndProducerPool$1.invoke(RPCClientProxyHandler.kt:165) [corda-rpc-1.0.0.jar:?]
+	at net.corda.client.rpc.internal.RPCClientProxyHandler$sessionAndProducerPool$1.invoke(RPCClientProxyHandler.kt:65) [corda-rpc-1.0.0.jar:?]
+	at net.corda.core.internal.LazyPool.borrow(LazyPool.kt:42) [corda-core-1.0.0.jar:?]
+	at net.corda.client.rpc.internal.RPCClientProxyHandler.start(RPCClientProxyHandler.kt:453) [corda-rpc-1.0.0.jar:?]
+	at net.corda.client.rpc.internal.RPCClient$start$1.invoke(RPCClient.kt:116) [corda-rpc-1.0.0.jar:?]
+	at net.corda.client.rpc.internal.RPCClient$start$1.invoke(RPCClient.kt:82) [corda-rpc-1.0.0.jar:?]
+	at net.corda.core.internal.InternalUtilsKt.logElapsedTime(InternalUtils.kt:168) [corda-core-1.0.0.jar:?]
+	at net.corda.core.internal.InternalUtilsKt.logElapsedTime(InternalUtils.kt:160) [corda-core-1.0.0.jar:?]
+	at net.corda.client.rpc.internal.RPCClient.start(RPCClient.kt:103) [corda-rpc-1.0.0.jar:?]
+	at net.corda.client.rpc.CordaRPCClient.start(CordaRPCClient.kt:100) [corda-rpc-1.0.0.jar:?]
+	at net.corda.webserver.internal.NodeWebServer.connectLocalRpcAsNodeUser(NodeWebServer.kt:210) [corda-webserver-impl-1.0.0.jar:?]
+	at net.corda.webserver.internal.NodeWebServer.retryConnectLocalRpc(NodeWebServer.kt:188) [corda-webserver-impl-1.0.0.jar:?]
+	at net.corda.webserver.internal.NodeWebServer.start(NodeWebServer.kt:45) [corda-webserver-impl-1.0.0.jar:?]
+	at net.corda.webserver.WebServer.main(WebServer.kt:64) [corda-webserver-impl-1.0.0.jar:?]
+Caused by: java.lang.Exception: Failed to find a store at G:\cordanew2\AmendFlow\agreement-negotiation\build\nodes\BankofAmerica\certificates\sslkeystore.jks
+	at org.apache.activemq.artemis.core.remoting.impl.ssl.SSLSupport.validateStoreURL(SSLSupport.java:148) ~[artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.remoting.impl.ssl.SSLSupport.loadKeystore(SSLSupport.java:101) ~[artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.remoting.impl.ssl.SSLSupport.loadKeyManagers(SSLSupport.java:123) ~[artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.remoting.impl.ssl.SSLSupport.createContext(SSLSupport.java:52) ~[artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.remoting.impl.netty.NettyConnector.start(NettyConnector.java:490) ~[artemis-core-client-2.1.0.jar:2.1.0]
+	... 21 more
+[INFO ] 2018-01-10T21:48:18,626Z [main] internal.RPCClient.logElapsedTime - Startup took 11382 msec
+[INFO ] 2018-01-10T21:48:19,692Z [main] internal.NodeWebServer.connectLocalRpcAsNodeUser - Connecting to node at localhost:10008 as node user
+[WARN ] 2018-01-10T21:48:19,903Z [main] core.client.createTransportConnection - AMQ212007: connector.create or connectorFactory.createConnector should never throw an exception, implementation is badly behaved, but we will deal with it anyway.
+java.lang.IllegalStateException: Unable to create NettyConnector for localhost:10008
+	at org.apache.activemq.artemis.core.remoting.impl.netty.NettyConnector.start(NettyConnector.java:494) ~[artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl.openTransportConnection(ClientSessionFactoryImpl.java:1034) ~[artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl.createTransportConnection(ClientSessionFactoryImpl.java:1076) [artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl.establishNewConnection(ClientSessionFactoryImpl.java:1254) [artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl.getConnection(ClientSessionFactoryImpl.java:891) [artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl.getConnectionWithRetry(ClientSessionFactoryImpl.java:795) [artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl.connect(ClientSessionFactoryImpl.java:238) [artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.client.impl.ServerLocatorImpl.createSessionFactory(ServerLocatorImpl.java:772) [artemis-core-client-2.1.0.jar:2.1.0]
+	at net.corda.client.rpc.internal.RPCClientProxyHandler$sessionAndProducerPool$1.invoke(RPCClientProxyHandler.kt:165) [corda-rpc-1.0.0.jar:?]
+	at net.corda.client.rpc.internal.RPCClientProxyHandler$sessionAndProducerPool$1.invoke(RPCClientProxyHandler.kt:65) [corda-rpc-1.0.0.jar:?]
+	at net.corda.core.internal.LazyPool.borrow(LazyPool.kt:42) [corda-core-1.0.0.jar:?]
+	at net.corda.client.rpc.internal.RPCClientProxyHandler.start(RPCClientProxyHandler.kt:453) [corda-rpc-1.0.0.jar:?]
+	at net.corda.client.rpc.internal.RPCClient$start$1.invoke(RPCClient.kt:116) [corda-rpc-1.0.0.jar:?]
+	at net.corda.client.rpc.internal.RPCClient$start$1.invoke(RPCClient.kt:82) [corda-rpc-1.0.0.jar:?]
+	at net.corda.core.internal.InternalUtilsKt.logElapsedTime(InternalUtils.kt:168) [corda-core-1.0.0.jar:?]
+	at net.corda.core.internal.InternalUtilsKt.logElapsedTime(InternalUtils.kt:160) [corda-core-1.0.0.jar:?]
+	at net.corda.client.rpc.internal.RPCClient.start(RPCClient.kt:103) [corda-rpc-1.0.0.jar:?]
+	at net.corda.client.rpc.CordaRPCClient.start(CordaRPCClient.kt:100) [corda-rpc-1.0.0.jar:?]
+	at net.corda.webserver.internal.NodeWebServer.connectLocalRpcAsNodeUser(NodeWebServer.kt:210) [corda-webserver-impl-1.0.0.jar:?]
+	at net.corda.webserver.internal.NodeWebServer.retryConnectLocalRpc(NodeWebServer.kt:188) [corda-webserver-impl-1.0.0.jar:?]
+	at net.corda.webserver.internal.NodeWebServer.start(NodeWebServer.kt:45) [corda-webserver-impl-1.0.0.jar:?]
+	at net.corda.webserver.WebServer.main(WebServer.kt:64) [corda-webserver-impl-1.0.0.jar:?]
+Caused by: java.lang.Exception: Failed to find a store at G:\cordanew2\AmendFlow\agreement-negotiation\build\nodes\BankofAmerica\certificates\sslkeystore.jks
+	at org.apache.activemq.artemis.core.remoting.impl.ssl.SSLSupport.validateStoreURL(SSLSupport.java:148) ~[artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.remoting.impl.ssl.SSLSupport.loadKeystore(SSLSupport.java:101) ~[artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.remoting.impl.ssl.SSLSupport.loadKeyManagers(SSLSupport.java:123) ~[artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.remoting.impl.ssl.SSLSupport.createContext(SSLSupport.java:52) ~[artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.remoting.impl.netty.NettyConnector.start(NettyConnector.java:490) ~[artemis-core-client-2.1.0.jar:2.1.0]
+	... 21 more
+[INFO ] 2018-01-10T21:48:19,904Z [main] internal.RPCClient.logElapsedTime - Startup took 210 msec
+[INFO ] 2018-01-10T21:48:20,987Z [main] internal.NodeWebServer.connectLocalRpcAsNodeUser - Connecting to node at localhost:10008 as node user
+[WARN ] 2018-01-10T21:48:21,263Z [main] core.client.createTransportConnection - AMQ212007: connector.create or connectorFactory.createConnector should never throw an exception, implementation is badly behaved, but we will deal with it anyway.
+java.lang.IllegalStateException: Unable to create NettyConnector for localhost:10008
+	at org.apache.activemq.artemis.core.remoting.impl.netty.NettyConnector.start(NettyConnector.java:494) ~[artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl.openTransportConnection(ClientSessionFactoryImpl.java:1034) ~[artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl.createTransportConnection(ClientSessionFactoryImpl.java:1076) [artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl.establishNewConnection(ClientSessionFactoryImpl.java:1254) [artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl.getConnection(ClientSessionFactoryImpl.java:891) [artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl.getConnectionWithRetry(ClientSessionFactoryImpl.java:795) [artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl.connect(ClientSessionFactoryImpl.java:238) [artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.client.impl.ServerLocatorImpl.createSessionFactory(ServerLocatorImpl.java:772) [artemis-core-client-2.1.0.jar:2.1.0]
+	at net.corda.client.rpc.internal.RPCClientProxyHandler$sessionAndProducerPool$1.invoke(RPCClientProxyHandler.kt:165) [corda-rpc-1.0.0.jar:?]
+	at net.corda.client.rpc.internal.RPCClientProxyHandler$sessionAndProducerPool$1.invoke(RPCClientProxyHandler.kt:65) [corda-rpc-1.0.0.jar:?]
+	at net.corda.core.internal.LazyPool.borrow(LazyPool.kt:42) [corda-core-1.0.0.jar:?]
+	at net.corda.client.rpc.internal.RPCClientProxyHandler.start(RPCClientProxyHandler.kt:453) [corda-rpc-1.0.0.jar:?]
+	at net.corda.client.rpc.internal.RPCClient$start$1.invoke(RPCClient.kt:116) [corda-rpc-1.0.0.jar:?]
+	at net.corda.client.rpc.internal.RPCClient$start$1.invoke(RPCClient.kt:82) [corda-rpc-1.0.0.jar:?]
+	at net.corda.core.internal.InternalUtilsKt.logElapsedTime(InternalUtils.kt:168) [corda-core-1.0.0.jar:?]
+	at net.corda.core.internal.InternalUtilsKt.logElapsedTime(InternalUtils.kt:160) [corda-core-1.0.0.jar:?]
+	at net.corda.client.rpc.internal.RPCClient.start(RPCClient.kt:103) [corda-rpc-1.0.0.jar:?]
+	at net.corda.client.rpc.CordaRPCClient.start(CordaRPCClient.kt:100) [corda-rpc-1.0.0.jar:?]
+	at net.corda.webserver.internal.NodeWebServer.connectLocalRpcAsNodeUser(NodeWebServer.kt:210) [corda-webserver-impl-1.0.0.jar:?]
+	at net.corda.webserver.internal.NodeWebServer.retryConnectLocalRpc(NodeWebServer.kt:188) [corda-webserver-impl-1.0.0.jar:?]
+	at net.corda.webserver.internal.NodeWebServer.start(NodeWebServer.kt:45) [corda-webserver-impl-1.0.0.jar:?]
+	at net.corda.webserver.WebServer.main(WebServer.kt:64) [corda-webserver-impl-1.0.0.jar:?]
+Caused by: java.lang.Exception: Failed to find a store at G:\cordanew2\AmendFlow\agreement-negotiation\build\nodes\BankofAmerica\certificates\sslkeystore.jks
+	at org.apache.activemq.artemis.core.remoting.impl.ssl.SSLSupport.validateStoreURL(SSLSupport.java:148) ~[artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.remoting.impl.ssl.SSLSupport.loadKeystore(SSLSupport.java:101) ~[artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.remoting.impl.ssl.SSLSupport.loadKeyManagers(SSLSupport.java:123) ~[artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.remoting.impl.ssl.SSLSupport.createContext(SSLSupport.java:52) ~[artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.remoting.impl.netty.NettyConnector.start(NettyConnector.java:490) ~[artemis-core-client-2.1.0.jar:2.1.0]
+	... 21 more
+[INFO ] 2018-01-10T21:48:21,265Z [main] internal.RPCClient.logElapsedTime - Startup took 277 msec
+[INFO ] 2018-01-10T21:48:22,418Z [main] internal.NodeWebServer.connectLocalRpcAsNodeUser - Connecting to node at localhost:10008 as node user
+[WARN ] 2018-01-10T21:48:23,822Z [main] core.client.createTransportConnection - AMQ212007: connector.create or connectorFactory.createConnector should never throw an exception, implementation is badly behaved, but we will deal with it anyway.
+java.lang.IllegalStateException: Unable to create NettyConnector for localhost:10008
+	at org.apache.activemq.artemis.core.remoting.impl.netty.NettyConnector.start(NettyConnector.java:494) ~[artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl.openTransportConnection(ClientSessionFactoryImpl.java:1034) ~[artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl.createTransportConnection(ClientSessionFactoryImpl.java:1076) [artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl.establishNewConnection(ClientSessionFactoryImpl.java:1254) [artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl.getConnection(ClientSessionFactoryImpl.java:891) [artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl.getConnectionWithRetry(ClientSessionFactoryImpl.java:795) [artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl.connect(ClientSessionFactoryImpl.java:238) [artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.client.impl.ServerLocatorImpl.createSessionFactory(ServerLocatorImpl.java:772) [artemis-core-client-2.1.0.jar:2.1.0]
+	at net.corda.client.rpc.internal.RPCClientProxyHandler$sessionAndProducerPool$1.invoke(RPCClientProxyHandler.kt:165) [corda-rpc-1.0.0.jar:?]
+	at net.corda.client.rpc.internal.RPCClientProxyHandler$sessionAndProducerPool$1.invoke(RPCClientProxyHandler.kt:65) [corda-rpc-1.0.0.jar:?]
+	at net.corda.core.internal.LazyPool.borrow(LazyPool.kt:42) [corda-core-1.0.0.jar:?]
+	at net.corda.client.rpc.internal.RPCClientProxyHandler.start(RPCClientProxyHandler.kt:453) [corda-rpc-1.0.0.jar:?]
+	at net.corda.client.rpc.internal.RPCClient$start$1.invoke(RPCClient.kt:116) [corda-rpc-1.0.0.jar:?]
+	at net.corda.client.rpc.internal.RPCClient$start$1.invoke(RPCClient.kt:82) [corda-rpc-1.0.0.jar:?]
+	at net.corda.core.internal.InternalUtilsKt.logElapsedTime(InternalUtils.kt:168) [corda-core-1.0.0.jar:?]
+	at net.corda.core.internal.InternalUtilsKt.logElapsedTime(InternalUtils.kt:160) [corda-core-1.0.0.jar:?]
+	at net.corda.client.rpc.internal.RPCClient.start(RPCClient.kt:103) [corda-rpc-1.0.0.jar:?]
+	at net.corda.client.rpc.CordaRPCClient.start(CordaRPCClient.kt:100) [corda-rpc-1.0.0.jar:?]
+	at net.corda.webserver.internal.NodeWebServer.connectLocalRpcAsNodeUser(NodeWebServer.kt:210) [corda-webserver-impl-1.0.0.jar:?]
+	at net.corda.webserver.internal.NodeWebServer.retryConnectLocalRpc(NodeWebServer.kt:188) [corda-webserver-impl-1.0.0.jar:?]
+	at net.corda.webserver.internal.NodeWebServer.start(NodeWebServer.kt:45) [corda-webserver-impl-1.0.0.jar:?]
+	at net.corda.webserver.WebServer.main(WebServer.kt:64) [corda-webserver-impl-1.0.0.jar:?]
+Caused by: java.lang.Exception: Failed to find a store at G:\cordanew2\AmendFlow\agreement-negotiation\build\nodes\BankofAmerica\certificates\sslkeystore.jks
+	at org.apache.activemq.artemis.core.remoting.impl.ssl.SSLSupport.validateStoreURL(SSLSupport.java:148) ~[artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.remoting.impl.ssl.SSLSupport.loadKeystore(SSLSupport.java:101) ~[artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.remoting.impl.ssl.SSLSupport.loadKeyManagers(SSLSupport.java:123) ~[artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.remoting.impl.ssl.SSLSupport.createContext(SSLSupport.java:52) ~[artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.remoting.impl.netty.NettyConnector.start(NettyConnector.java:490) ~[artemis-core-client-2.1.0.jar:2.1.0]
+	... 21 more
+[INFO ] 2018-01-10T21:48:23,824Z [main] internal.RPCClient.logElapsedTime - Startup took 1403 msec
+[INFO ] 2018-01-10T21:48:25,590Z [main] internal.NodeWebServer.connectLocalRpcAsNodeUser - Connecting to node at localhost:10008 as node user
+[WARN ] 2018-01-10T21:48:25,715Z [main] core.client.createTransportConnection - AMQ212007: connector.create or connectorFactory.createConnector should never throw an exception, implementation is badly behaved, but we will deal with it anyway.
+java.lang.IllegalStateException: Unable to create NettyConnector for localhost:10008
+	at org.apache.activemq.artemis.core.remoting.impl.netty.NettyConnector.start(NettyConnector.java:494) ~[artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl.openTransportConnection(ClientSessionFactoryImpl.java:1034) ~[artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl.createTransportConnection(ClientSessionFactoryImpl.java:1076) [artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl.establishNewConnection(ClientSessionFactoryImpl.java:1254) [artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl.getConnection(ClientSessionFactoryImpl.java:891) [artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl.getConnectionWithRetry(ClientSessionFactoryImpl.java:795) [artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.client.impl.ClientSessionFactoryImpl.connect(ClientSessionFactoryImpl.java:238) [artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.client.impl.ServerLocatorImpl.createSessionFactory(ServerLocatorImpl.java:772) [artemis-core-client-2.1.0.jar:2.1.0]
+	at net.corda.client.rpc.internal.RPCClientProxyHandler$sessionAndProducerPool$1.invoke(RPCClientProxyHandler.kt:165) [corda-rpc-1.0.0.jar:?]
+	at net.corda.client.rpc.internal.RPCClientProxyHandler$sessionAndProducerPool$1.invoke(RPCClientProxyHandler.kt:65) [corda-rpc-1.0.0.jar:?]
+	at net.corda.core.internal.LazyPool.borrow(LazyPool.kt:42) [corda-core-1.0.0.jar:?]
+	at net.corda.client.rpc.internal.RPCClientProxyHandler.start(RPCClientProxyHandler.kt:453) [corda-rpc-1.0.0.jar:?]
+	at net.corda.client.rpc.internal.RPCClient$start$1.invoke(RPCClient.kt:116) [corda-rpc-1.0.0.jar:?]
+	at net.corda.client.rpc.internal.RPCClient$start$1.invoke(RPCClient.kt:82) [corda-rpc-1.0.0.jar:?]
+	at net.corda.core.internal.InternalUtilsKt.logElapsedTime(InternalUtils.kt:168) [corda-core-1.0.0.jar:?]
+	at net.corda.core.internal.InternalUtilsKt.logElapsedTime(InternalUtils.kt:160) [corda-core-1.0.0.jar:?]
+	at net.corda.client.rpc.internal.RPCClient.start(RPCClient.kt:103) [corda-rpc-1.0.0.jar:?]
+	at net.corda.client.rpc.CordaRPCClient.start(CordaRPCClient.kt:100) [corda-rpc-1.0.0.jar:?]
+	at net.corda.webserver.internal.NodeWebServer.connectLocalRpcAsNodeUser(NodeWebServer.kt:210) [corda-webserver-impl-1.0.0.jar:?]
+	at net.corda.webserver.internal.NodeWebServer.retryConnectLocalRpc(NodeWebServer.kt:188) [corda-webserver-impl-1.0.0.jar:?]
+	at net.corda.webserver.internal.NodeWebServer.start(NodeWebServer.kt:45) [corda-webserver-impl-1.0.0.jar:?]
+	at net.corda.webserver.WebServer.main(WebServer.kt:64) [corda-webserver-impl-1.0.0.jar:?]
+Caused by: java.lang.Exception: Failed to find a store at G:\cordanew2\AmendFlow\agreement-negotiation\build\nodes\BankofAmerica\certificates\sslkeystore.jks
+	at org.apache.activemq.artemis.core.remoting.impl.ssl.SSLSupport.validateStoreURL(SSLSupport.java:148) ~[artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.remoting.impl.ssl.SSLSupport.loadKeystore(SSLSupport.java:101) ~[artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.remoting.impl.ssl.SSLSupport.loadKeyManagers(SSLSupport.java:123) ~[artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.remoting.impl.ssl.SSLSupport.createContext(SSLSupport.java:52) ~[artemis-core-client-2.1.0.jar:2.1.0]
+	at org.apache.activemq.artemis.core.remoting.impl.netty.NettyConnector.start(NettyConnector.java:490) ~[artemis-core-client-2.1.0.jar:2.1.0]
+	... 21 more
+[INFO ] 2018-01-10T21:48:25,717Z [main] internal.RPCClient.logElapsedTime - Startup took 125 msec
+[INFO ] 2018-01-10T21:48:26,810Z [main] internal.NodeWebServer.connectLocalRpcAsNodeUser - Connecting to node at localhost:10008 as node user
+[INFO ] 2018-01-10T21:48:32,839Z [main] internal.RPCClient.logElapsedTime - Startup took 6028 msec
+[INFO ] 2018-01-10T21:48:34,180Z [main] internal.NodeWebServer.connectLocalRpcAsNodeUser - Connecting to node at localhost:10008 as node user
+[INFO ] 2018-01-10T21:48:36,073Z [main] internal.RPCClient.logElapsedTime - Startup took 1889 msec
+[INFO ] 2018-01-10T21:48:37,085Z [main] internal.NodeWebServer.connectLocalRpcAsNodeUser - Connecting to node at localhost:10008 as node user
+[INFO ] 2018-01-10T21:48:38,218Z [main] internal.RPCClient.logElapsedTime - Startup took 1132 msec
+[INFO ] 2018-01-10T21:48:39,272Z [main] internal.NodeWebServer.connectLocalRpcAsNodeUser - Connecting to node at localhost:10008 as node user
+[INFO ] 2018-01-10T21:48:40,754Z [main] internal.RPCClient.logElapsedTime - Startup took 1481 msec
+[INFO ] 2018-01-10T21:48:41,791Z [main] internal.NodeWebServer.connectLocalRpcAsNodeUser - Connecting to node at localhost:10008 as node user
+[INFO ] 2018-01-10T21:48:43,093Z [main] internal.RPCClient.logElapsedTime - Startup took 1300 msec
+[INFO ] 2018-01-10T21:48:44,128Z [main] internal.NodeWebServer.connectLocalRpcAsNodeUser - Connecting to node at localhost:10008 as node user
+[INFO ] 2018-01-10T21:48:45,291Z [main] internal.RPCClient.logElapsedTime - Startup took 1162 msec
+[INFO ] 2018-01-10T21:48:46,360Z [main] internal.NodeWebServer.connectLocalRpcAsNodeUser - Connecting to node at localhost:10008 as node user
+[INFO ] 2018-01-10T21:48:47,382Z [main] internal.RPCClient.logElapsedTime - Startup took 1023 msec
+[INFO ] 2018-01-10T21:48:48,384Z [main] internal.NodeWebServer.connectLocalRpcAsNodeUser - Connecting to node at localhost:10008 as node user
+[INFO ] 2018-01-10T21:48:49,400Z [main] internal.RPCClient.logElapsedTime - Startup took 1016 msec
+[INFO ] 2018-01-10T21:48:50,451Z [main] internal.NodeWebServer.connectLocalRpcAsNodeUser - Connecting to node at localhost:10008 as node user
+[INFO ] 2018-01-10T21:48:51,604Z [main] internal.RPCClient.logElapsedTime - Startup took 1152 msec
+[INFO ] 2018-01-10T21:48:52,613Z [main] internal.NodeWebServer.connectLocalRpcAsNodeUser - Connecting to node at localhost:10008 as node user
+[INFO ] 2018-01-10T21:48:53,672Z [main] internal.RPCClient.logElapsedTime - Startup took 1043 msec
+[INFO ] 2018-01-10T21:48:54,673Z [main] internal.NodeWebServer.connectLocalRpcAsNodeUser - Connecting to node at localhost:10008 as node user
+[INFO ] 2018-01-10T21:48:55,691Z [main] internal.RPCClient.logElapsedTime - Startup took 1017 msec
+[INFO ] 2018-01-10T21:48:56,700Z [main] internal.NodeWebServer.connectLocalRpcAsNodeUser - Connecting to node at localhost:10008 as node user
+[INFO ] 2018-01-10T21:48:57,721Z [main] internal.RPCClient.logElapsedTime - Startup took 1021 msec
+[INFO ] 2018-01-10T21:48:58,732Z [main] internal.NodeWebServer.connectLocalRpcAsNodeUser - Connecting to node at localhost:10008 as node user
+[INFO ] 2018-01-10T21:49:12,016Z [main] internal.RPCClient.logElapsedTime - Startup took 13282 msec
+[INFO ] 2018-01-10T21:49:12,121Z [main] util.log.initialized - Logging initialized @132606ms
+[WARN ] 2018-01-10T21:49:12,183Z [main] internal.NodeWebServer.initWebServer - Unable to locate Jolokia WAR on classpath
+[INFO ] 2018-01-10T21:49:16,830Z [main] internal.NodeWebServer.buildServletContextHandler - Add plugin web API from attachment com.genpact.agreementnegotiation.plugin.AgreementNegotiationWebPlugin$$Lambda$34/466562148@b5bddfe
+[INFO ] 2018-01-10T21:49:18,560Z [main] server.Server.doStart - jetty-9.3.9.v20160517
+[INFO ] 2018-01-10T21:49:20,512Z [main] handler.ContextHandler.doStart - Started o.e.j.s.ServletContextHandler@21bf1b1f{/,null,AVAILABLE}
+[INFO ] 2018-01-10T21:49:20,545Z [main] server.AbstractConnector.doStart - Started ServerConnector@fea8a83{HTTP/1.1,[http/1.1]}{0.0.0.0:10010}
+[INFO ] 2018-01-10T21:49:20,546Z [main] server.Server.doStart - Started @141093ms
+[INFO ] 2018-01-10T21:49:20,547Z [main] internal.NodeWebServer.initWebServer - Starting webserver on address localhost:10010
