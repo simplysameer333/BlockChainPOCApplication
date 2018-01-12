@@ -14,14 +14,24 @@ This is demo application of Blockchain that uses Corda Plateform.
 4. If Java version are correctly installed and environment variables are set correctly the below message would be displayed.
 <<location>>>runnodes.bat
 Starting nodes in <<location>>
+  
 Starting corda.jar in <<location>>\BankofAmerica on debug port 5005
+  
 Starting corda-webserver.jar in <<location>>\BankofAmerica on debug port 5006
+  
 Starting corda.jar in <<location>>\Controller on debug port 5007
+  
 Starting corda.jar in <<location>>\Genpact on debug port 5008
+  
 Starting corda-webserver.jar in <<location>>\Genpact on debug port 5009
+  
 Starting corda.jar in <<location>>\JPMorganChase on debug port 5010
+  
 Starting corda-webserver.jar in <<location>>\JPMorganChase on debug port 5011
+  
 Started 7 processes
+
 Finished starting nodes
+
 5.  
 
