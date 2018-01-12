@@ -10,26 +10,47 @@ This is demo application of Blockchain that uses Corda Plateform.
 #Starting up application
 1. Download the application from github.
 2. Start command prompt and navigate extracted folder where runnodes.bat file is placed.
-3. run - > runnodes.bat.
+3. run - > 
+
+		runnodes.bat.
+			
 4. If Java version are correctly installed and environment variables are set correctly the below message would be displayed.
-  <<location>>>runnodes.bat
-  Starting nodes in <<location>>
-  Starting corda.jar in <<location>>\BankofAmerica on debug port 5005
-  Starting corda-webserver.jar in <<location>>\BankofAmerica on debug port 5006
+			
+			<<location>>>runnodes.bat
 
-  Starting corda.jar in <<location>>\Controller on debug port 5007
+			Starting nodes in <<location>>
 
-  Starting corda.jar in <<location>>\Genpact on debug port 5008
+			Starting corda.jar in <<location>>\BankofAmerica on debug port 5005
 
-  Starting corda-webserver.jar in <<location>>\Genpact on debug port 5009
+			Starting corda-webserver.jar in <<location>>\BankofAmerica on debug port 5006
 
-  Starting corda.jar in <<location>>\JPMorganChase on debug port 5010
+			Starting corda.jar in <<location>>\Controller on debug port 5007
 
-  Starting corda-webserver.jar in <<location>>\JPMorganChase on debug port 5011
+			Starting corda.jar in <<location>>\Genpact on debug port 5008
 
-  Started 7 processes
+			Starting corda-webserver.jar in <<location>>\Genpact on debug port 5009
 
-  Finished starting nodes
+			Starting corda.jar in <<location>>\JPMorganChase on debug port 5010
 
-5.  
+			Starting corda-webserver.jar in <<location>>\JPMorganChase on debug port 5011
+
+			Started 7 processes
+
+			Finished starting nodes	
+
+5.  It will open up 7 windows -
+
+	a) Windows for webserver, one for each node (total 3 windows).
+		
+	b) Windows for command line intraction with Corda. (Total 4 windows - 1 for parties and 1 for Controller (notary)).
+		
+6.  Urls for templates -
+
+		JPMorganChase - http://localhost:10007/web/template/
+		
+		BankofAmerica - http://localhost:10010/web/template/
+
+		Genpact - http://localhost:10013/web/template/
+		
+		
 
