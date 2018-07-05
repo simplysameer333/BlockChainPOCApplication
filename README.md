@@ -1,5 +1,5 @@
 # BlockChainPOCApplication
-This is demo application of Blockchain that uses Corda Plateform. This is V2 that includes multiple counterparties with attachment functionlity.
+This is demo application of Blockchain that uses Corda Plateform. This is V2 that includes multiple counterparties with attachment functionlity. For single counter party flow check branch named - SingleCounterParty.
 
 #Prerequisites
 1. Java 1.8.x for later must be installed on system.
