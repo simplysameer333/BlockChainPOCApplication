@@ -1,6 +1,8 @@
 # BlockChainPOCApplication
 This is demo application of Blockchain that uses Corda Plateform. This is V2 that includes multiple counterparties with attachment functionlity. For single counter party flow check branch named - SingleCounterParty.
 
+This version still allow only one counter party selection from UI but can be easily changed by adding 'multiple' attribute in HTML file.
+
 #Prerequisites
 1. Java 1.8.x for later must be installed on system.
 2. JAVA_HOME environment must be set with Java 1.8.x (or any later version installed on system).
