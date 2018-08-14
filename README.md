@@ -4,7 +4,7 @@ This is demo application of Blockchain that uses Corda Plateform. This is V2 tha
 This version still allow only one counter party selection from UI but can be easily changed by adding 'multiple' attribute in HTML file.
 
 #Prerequisites
-1. Java 1.8.x for later must be installed on system.
+1. Java 1.8.x(http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) for later must be installed on system.
 2. JAVA_HOME environment must be set with Java 1.8.x (or any later version installed on system).
 3. PATH environment variable must include Java 1.8.x (or any later version installed on system).
 4. Chrome browser to run web template.
