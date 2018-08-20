@@ -1,5 +1,5 @@
 # BlockChainPOCApplication
-This is demo application of Blockchain that uses Corda Plateform. This is V2 that includes multiple counterparties with attachment functionlity. For single counter party flow check branch named - SingleCounterParty.
+This is demo application of Blockchain that uses Corda Plateform. This is V2 that includes multiple counterparties (logic is present) with attachment functionlity. 
 
 This version still allow only one counter party selection from UI but can be easily changed by adding 'multiple' attribute in HTML file.
 
@@ -26,24 +26,19 @@ This version still allow only one counter party selection from UI but can be eas
 			Starting corda.jar in <<location>>\Genpact on debug port 5008
 			Starting corda-webserver.jar in <<location>>\Genpact on debug port 5009
 			Starting corda.jar in <<location>>\JPMorganChase on debug port 5010
-			Starting corda-webserver.jar in <<location>>\JPMorganChase on debug port 5011
-			Starting corda.jar in <<location>>\Macquarie on debug port 5012
-			Starting corda-webserver.jar in <<location>>\Macquarie on debug port 5013
-			Started 9 processes
+			Starting corda-webserver.jar in <<location>>\JPMorganChase on debug port 5011			
+			Started 7 processes
 			Finished starting nodes	
 
 5.  It will open up 9 windows -
 
-	a) Windows for webserver, one for each node (total 4 windows).
+	a) Windows for webserver, one for each node (total 3 windows).
 		
-	b) Windows for command line intraction with Corda. (Total 5 windows - 1 for each party and 1 for Controller (notary)).
+	b) Windows for command line intraction with Corda. (Total 4 windows - 1 for each party and 1 for Controller (notary)).
 		
 6.  Urls for templates -
 
 		JPMorganChase - http://localhost:10007/web/template/		
 		BankofAmerica - http://localhost:10010/web/template/
 		Genpact - http://localhost:10013/web/template/		
-		Macquarie - http://localhost:10016/web/template/
-		
-		
 
