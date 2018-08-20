@@ -30,7 +30,7 @@ This version still allow only one counter party selection from UI but can be eas
 			Started 7 processes
 			Finished starting nodes	
 
-5.  It will open up 9 windows -
+5.  It will open up 7 windows -
 
 	a) Windows for webserver, one for each node (total 3 windows).
 		
